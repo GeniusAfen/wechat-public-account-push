@@ -27,7 +27,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oS09F6JeSIGuKpbJi0hK0yetBdwE",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "KdcZoDZeIRTxlMz84pfGBZ_l0Y0sI7xNd-90QDAdlV0",
+      useTemplateId: "GW2z7ygHphN5yvbIAbeE_4nkVZgQysvWdDT7XVP8iTY",
       // 所在省份
       province: "山东",
       // 所在城市
@@ -59,7 +59,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oS09F6IFDP9ZwLEX6uzXOKUNPqgw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "S2ys0ATl2IoEEgU8P6roGJaSw4R29ZDVLZsmj8CT3vI",
+      useTemplateId: "gq2hDqmSDeY3W16ZgVz8O4LcSr0yQxdV4wavfRp4Jbg",
       // 所在省份
       province: "江苏",
       // 所在城市
@@ -89,9 +89,9 @@ export const config = {
       // 想要发送的人的名字
       name: "Afen",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oS09F6IFDP9ZwLEX6uzXOKUNPqgw",
+      id: "oS09F6JRktOYbG4ZeQ97usu8h6ks",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "MkYfIz7gxp73W7T6vWW7WWNoDM5DfR0jNJPfkkR_d4Q",
+      useTemplateId: "8CkEidq6tyIxAFa_oKuJc_1biDOhHXSBzTOmd3_x46c",
       // 所在省份
       province: "山东",
       // 所在城市
