@@ -15,7 +15,7 @@ export const config = {
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  isShowColor: true,
+  isShowColor: false,
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
@@ -23,11 +23,11 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "时礼媛",
+      name: "SLY",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oS09F6JeSIGuKpbJi0hK0yetBdwE",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "j31CmzbGrf41rRCmk4oqgLrervbAr2abGKnGvNOLVm0",
+      useTemplateId: "cY4hFjKyXuRF4v9_mrO8MEnlMARMQmWQj9PLaZLEeNI",
       // 所在省份
       province: "山东",
       // 所在城市
@@ -37,7 +37,7 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://tophub.today/n/VaobJ98oAj",
+      openUrl: "https://weibo.com/hot/search",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -55,11 +55,11 @@ export const config = {
     },
   {
       // 想要发送的人的名字
-      name: "杨喜宝",
+      name: "YXB",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oS09F6IFDP9ZwLEX6uzXOKUNPqgw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "FRhm1tz0sg1aVNLDw255PhJb5WJm1KPtuvyPaVltPv8",
+      useTemplateId: "c6-tHWvMacHZtkZgAjA6afp9QQNna01hKq8YW2_N7TE",
       // 所在省份
       province: "江苏",
       // 所在城市
@@ -69,7 +69,39 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://tophub.today/n/VaobJ98oAj",
+      openUrl: "https://weibo.com/hot/search",
+      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {"type": "节日", "name": "元旦", "year": "2023", "date": "01-01"},
+        {"type": "节日", "name": "国庆", "year": "2022", "date": "10-01"},
+		{"type": "节日", "name": "春节", "year": "2023", "date": "01-22"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "杨喜宝", "year": "1996", "date": "10-07"},
+      ],
+      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2022-03-02"},
+      ]
+    },
+{
+      // 想要发送的人的名字
+      name: "Afen",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "oS09F6IFDP9ZwLEX6uzXOKUNPqgw",
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: "_1v84ontK9AYhDRLLtqgpVOu68n69-E7OB858CSFMtE",
+      // 所在省份
+      province: "山东",
+      // 所在城市
+      city: "济南",
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      horoscopeDate: '09-16',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: "https://weibo.com/hot/search",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
