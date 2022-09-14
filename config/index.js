@@ -1,3 +1,33 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@GeniusAfen 
+GeniusAfen
+/
+wechat-public-account-push
+Public
+forked from wangxinleo/wechat-public-account-push
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+wechat-public-account-push/config/index.js /
+@GeniusAfen
+GeniusAfen Update index.js
+Latest commit 57b617a 10 hours ago
+ History
+ 4 contributors
+@wangxinleo@GeniusAfen@shuangxunian@ZzqiZQute
+231 lines (210 sloc)  10.8 KB
+
 export const config = {
   /**
    * 公众号配置
@@ -25,7 +55,7 @@ export const config = {
       // 想要发送的人的名字
       name: "SLY",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oS09F6JRktOYbG4ZeQ97usu8h6ks",
+      id: "oS09F6JeSIGuKpbJi0hK0yetBdwE",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "zKP_CD4HbiIzh0Ztx5o8GBBeGe8Z2GffaOFZq3pHKro",
       // 所在省份
@@ -57,7 +87,7 @@ export const config = {
       // 想要发送的人的名字
       name: "YXB",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oS09F6JRktOYbG4ZeQ97usu8h6ks",
+      id: "oS09F6IFDP9ZwLEX6uzXOKUNPqgw",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "2WulNuZeDwnVi2NaJ5FWvxx1qASZW_ayPOBFGV0Zq2M",
       // 所在省份
