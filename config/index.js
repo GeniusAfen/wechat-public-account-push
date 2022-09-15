@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@GeniusAfen 
-GeniusAfen
-/
-wechat-public-account-push
-Public
-forked from wangxinleo/wechat-public-account-push
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-wechat-public-account-push/config/index.js /
-@GeniusAfen
-GeniusAfen Update index.js
-Latest commit 57b617a 10 hours ago
- History
- 4 contributors
-@wangxinleo@GeniusAfen@shuangxunian@ZzqiZQute
-231 lines (210 sloc)  10.8 KB
-
 export const config = {
   /**
    * 公众号配置
